@@ -109,7 +109,7 @@ function Initialize(extension)
             divTOC.style.width = pos + "px";
             divNavOpts.style.width = divSearchOpts.style.width = divIndexOpts.style.width = pos - 8 + "px";
             divSizer.style.left = pos + "px";
-            topicContent.style.marginLeft = pos + 8 + "px";
+            topicContent.style.marginLeft = pos + 7 + "px";
         }
         ResizeContent();
         divSizer.style.zIndex = 5000;
@@ -538,7 +538,6 @@ function OnMouseDown(event)
         document.addEventListener("mouseup", OnMouseUp, true);
         event.preventDefault();
     }
-
     event.preventDefault();
 }
 
@@ -563,16 +562,16 @@ function OnMouseMove(event)
     if(!isIE)
         pos -= 8;
     
+    
     if (pos > 250) {
         divTOC.style.width = pos + "px";
         divNavOpts.style.width =divSearchOpts.style.width = divIndexOpts.style.width = pos - 8 + "px";
         divSizer.style.left = pos + "px";
-        topicContent.style.marginLeft = pos + 8 + "px";
+        topicContent.style.marginLeft = pos + 7 + "px";
     }
-
+    
     // Resize the content div to fit in the remaining space
     ResizeContent();
-
 }
 
 // Finish the drag operation when the mouse button is released
@@ -792,5 +791,5 @@ function ShowDirectLink()
     var relative = url.substr(base.length);
 
     // Using prompt lets the user copy it from the text box
-    prompt("Direct link", base + "?topic=" + relative);
+    prompt("Direct link", base + relative);
 }
