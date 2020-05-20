@@ -50,6 +50,8 @@
       <MSHelp:Keyword Index="A" Term="F:global.SoundController.SoundType.SKULLTOSS" />
       <MSHelp:Keyword Index="A" Term="F:global.SoundController.SoundType.WOLFPUNCH" />
       <MSHelp:Keyword Index="A" Term="F:global.SoundController.SoundType.WOLFDASH" />
+      <MSHelp:Keyword Index="A" Term="F:global.SoundController.SoundType.SCARABIMPACT" />
+      <MSHelp:Keyword Index="A" Term="F:global.SoundController.SoundType.CLOWNPIEJUMP" />
       <MSHelp:Keyword Index="A" Term="frlrfglobalSoundControllerSoundTypeClassTopic" />
       <MSHelp:Keyword Index="K" Term="SoundController.SoundType enumeration" />
       <MSHelp:Keyword Index="K" Term="global.SoundController.SoundType enumeration" />
@@ -88,6 +90,8 @@
       <MSHelp:Keyword Index="K" Term="SKULLTOSS enumeration member" />
       <MSHelp:Keyword Index="K" Term="WOLFPUNCH enumeration member" />
       <MSHelp:Keyword Index="K" Term="WOLFDASH enumeration member" />
+      <MSHelp:Keyword Index="K" Term="SCARABIMPACT enumeration member" />
+      <MSHelp:Keyword Index="K" Term="CLOWNPIEJUMP enumeration member" />
       <MSHelp:Keyword Index="F" Term="global.SoundController.SoundType" />
       <MSHelp:Keyword Index="F" Term="global.SoundController.SoundType.NONE" />
       <MSHelp:Keyword Index="F" Term="global.SoundController.SoundType.BONESRATTLE" />
@@ -124,6 +128,8 @@
       <MSHelp:Keyword Index="F" Term="global.SoundController.SoundType.SKULLTOSS" />
       <MSHelp:Keyword Index="F" Term="global.SoundController.SoundType.WOLFPUNCH" />
       <MSHelp:Keyword Index="F" Term="global.SoundController.SoundType.WOLFDASH" />
+      <MSHelp:Keyword Index="F" Term="global.SoundController.SoundType.SCARABIMPACT" />
+      <MSHelp:Keyword Index="F" Term="global.SoundController.SoundType.CLOWNPIEJUMP" />
       <MSHelp:Attr Name="HelpPriority" Value="2" />
       <MSHelp:Attr Name="APIType" Value="Managed" />
       <MSHelp:Attr Name="APILocation" Value="Assembly-CSharp.dll" />
@@ -163,6 +169,8 @@
       <MSHelp:Attr Name="APIName" Value="global.SoundController.SoundType.SKULLTOSS" />
       <MSHelp:Attr Name="APIName" Value="global.SoundController.SoundType.WOLFPUNCH" />
       <MSHelp:Attr Name="APIName" Value="global.SoundController.SoundType.WOLFDASH" />
+      <MSHelp:Attr Name="APIName" Value="global.SoundController.SoundType.SCARABIMPACT" />
+      <MSHelp:Attr Name="APIName" Value="global.SoundController.SoundType.CLOWNPIEJUMP" />
       <MSHelp:Attr Name="DevLang" Value="CSharp" />
       <MSHelp:Attr Name="DevLang" Value="VB" />
       <MSHelp:Attr Name="Locale" Value="en-us" />
@@ -1638,6 +1646,9 @@
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="F-global.MainMenuController.brainy.htm" target="_self">brainy Field</a>
 </div>
 <div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="F-global.MainMenuController.brainyIcon.htm" target="_self">brainyIcon Field</a>
+</div>
+<div class="TreeItem">
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="F-global.MainMenuController.charLeft.htm" target="_self">charLeft Field</a>
 </div>
 <div class="TreeItem">
@@ -1662,7 +1673,13 @@
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="F-global.MainMenuController.hippie.htm" target="_self">hippie Field</a>
 </div>
 <div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="F-global.MainMenuController.hippieIcon.htm" target="_self">hippieIcon Field</a>
+</div>
+<div class="TreeItem">
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="F-global.MainMenuController.lazy.htm" target="_self">lazy Field</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="F-global.MainMenuController.lazyIcon.htm" target="_self">lazyIcon Field</a>
 </div>
 <div class="TreeItem">
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="F-global.MainMenuController.menuCamera.htm" target="_self">menuCamera Field</a>
@@ -1791,6 +1808,9 @@
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="F-global.MainMenuController.sporty.htm" target="_self">sporty Field</a>
 </div>
 <div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="F-global.MainMenuController.sportyIcon.htm" target="_self">sportyIcon Field</a>
+</div>
+<div class="TreeItem">
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="F-global.MainMenuController.start.htm" target="_self">start Field</a>
 </div>
 <div class="TreeItem">
@@ -1836,6 +1856,9 @@
 </div>
 <div class="TreeItem">
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-global.MainMenuController.GetHat.htm" target="_self">GetHat Method </a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-global.MainMenuController.GetIcon.htm" target="_self">GetIcon Method </a>
 </div>
 <div class="TreeItem">
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-global.MainMenuController.LockInVariant.htm" target="_self">LockInVariant Method </a>
@@ -1913,6 +1936,18 @@
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="F-global.MovingPlatform.delayTime.htm" target="_self">delayTime Field</a>
 </div>
 <div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="F-global.MovingPlatform.direction.htm" target="_self">direction Field</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="F-global.MovingPlatform.isPlayerRiding.htm" target="_self">isPlayerRiding Field</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="F-global.MovingPlatform.playerOffset.htm" target="_self">playerOffset Field</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="F-global.MovingPlatform.playerRiding.htm" target="_self">playerRiding Field</a>
+</div>
+<div class="TreeItem">
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="F-global.MovingPlatform.pointNumber.htm" target="_self">pointNumber Field</a>
 </div>
 <div class="TreeItem">
@@ -1968,6 +2003,9 @@
 </div>
 <div class="TreeItem">
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="F-global.MultiTargetCamera.maxZoom.htm" target="_self">maxZoom Field</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="F-global.MultiTargetCamera.maxZvalue.htm" target="_self">maxZvalue Field</a>
 </div>
 <div class="TreeItem">
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="F-global.MultiTargetCamera.minZoom.htm" target="_self">minZoom Field</a>
@@ -2206,6 +2244,9 @@
 <div class="TreeNode">
 <img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Fields.T-global.onAnyKey.htm" target="_self">onAnyKey Fields</a>
 <div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="F-global.onAnyKey.alreadyLoading.htm" target="_self">alreadyLoading Field</a>
+</div>
 <div class="TreeItem">
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="F-global.onAnyKey.rwPlayers.htm" target="_self">rwPlayers Field</a>
 </div>
@@ -2885,6 +2926,9 @@
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="F-global.PlayerController.particles.htm" target="_self">particles Field</a>
 </div>
 <div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="F-global.PlayerController.playerIconImage.htm" target="_self">playerIconImage Field</a>
+</div>
+<div class="TreeItem">
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="F-global.PlayerController.playerNameCanvas.htm" target="_self">playerNameCanvas Field</a>
 </div>
 <div class="TreeItem">
@@ -2954,9 +2998,6 @@
 </div>
 <div class="TreeItem">
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-global.PlayerController.setPlayerNumber.htm" target="_self">setPlayerNumber Method </a>
-</div>
-<div class="TreeItem">
-<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-global.PlayerController.Start.htm" target="_self">Start Method </a>
 </div>
 <div class="TreeItem">
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-global.PlayerController.StartDash.htm" target="_self">StartDash Method </a>
@@ -3081,6 +3122,9 @@
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="F-global.Potion.onGroundHit.htm" target="_self">onGroundHit Field</a>
 </div>
 <div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="F-global.Potion.particleLifetime.htm" target="_self">particleLifetime Field</a>
+</div>
+<div class="TreeItem">
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="F-global.Potion.player.htm" target="_self">player Field</a>
 </div>
 <div class="TreeItem">
@@ -3094,6 +3138,9 @@
 <div class="TreeNode">
 <img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-global.Potion.htm" target="_self">Potion Methods</a>
 <div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-global.Potion.DestroyObject.htm" target="_self">DestroyObject Method </a>
+</div>
 <div class="TreeItem">
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-global.Potion.Explosion.htm" target="_self">Explosion Method </a>
 </div>
@@ -3646,6 +3693,9 @@
 <div class="TreeNode">
 <img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Fields.T-global.SkeletonMeleeHitbox.htm" target="_self">SkeletonMeleeHitbox Fields</a>
 <div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="F-global.SkeletonMeleeHitbox.hitSound.htm" target="_self">hitSound Field</a>
+</div>
 <div class="TreeItem">
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="F-global.SkeletonMeleeHitbox.knockBackDuration.htm" target="_self">knockBackDuration Field</a>
 </div>
@@ -11412,7 +11462,7 @@
     <b>Namespace:</b> 
    <a href="N-global.htm">global</a><br />
     <b>Assembly:</b>
-   <span sdata="assembly">Assembly-CSharp</span> (in Assembly-CSharp.dll)<div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Syntax</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="syntaxSection"><!----></a><div class="CodeSnippetContainer"><div class="CodeSnippetContainerTabs"><div class="CodeSnippetContainerTabLeft"><!----></div><div class="CodeSnippetContainerTabFirst CSharpTab" id="CSharpTabId" style="background:white;border-bottom-color:white"><a href="javascript:setActiveTab('CodeSnippetContainerCode','CSharpCode','CSharpTabId');" title="C#">C#</a></div><div class="CodeSnippetContainerTabRight"><!----></div></div><div class="CodeSnippetContainerCodeCollection"><div class="CodeSnippetToolBar"><div class="CodeSnippetToolBarText" /></div><div class="CodeSnippetContainerCode CSharpCode"><pre xml:space="preserve" class="libCScode"><span class="keyword">public</span> <span class="keyword">enum</span> <span class="identifier">SoundType</span></pre></div></div></div></div><div id="enumerationSection"><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Members</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="membersSection"><!----></a><table class="members" id="memberList" frame="lhs" cellpadding="2"><tr><th class="iconColumn" /><th class="nameColumn">Member name</th><th class="descriptionColumn">Description</th></tr><tr><td /><td target="F:global.SoundController.SoundType.NONE"><span class="selflink">NONE</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.BONESRATTLE"><span class="selflink">BONESRATTLE</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.CLOWNHORN"><span class="selflink">CLOWNHORN</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.CLOWNMINE"><span class="selflink">CLOWNMINE</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.CREEPYANIMALAMBIENCE"><span class="selflink">CREEPYANIMALAMBIENCE</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.FOOTSTEPONE"><span class="selflink">FOOTSTEPONE</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.FOOTSTEPTWO"><span class="selflink">FOOTSTEPTWO</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.FOOTSTEPTHREE"><span class="selflink">FOOTSTEPTHREE</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.GROUNDRUMBLE"><span class="selflink">GROUNDRUMBLE</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.GRUNTONE"><span class="selflink">GRUNTONE</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.GRUNTTWO"><span class="selflink">GRUNTTWO</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.GRUNTTHREE"><span class="selflink">GRUNTTHREE</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.HOWL"><span class="selflink">HOWL</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.JETPACK"><span class="selflink">JETPACK</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.PUNCH"><span class="selflink">PUNCH</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.SLAP"><span class="selflink">SLAP</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.SPLASHONE"><span class="selflink">SPLASHONE</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.SPLASHTWO"><span class="selflink">SPLASHTWO</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.THUNDER"><span class="selflink">THUNDER</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.SQUEEKONE"><span class="selflink">SQUEEKONE</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.SQUEEKTWO"><span class="selflink">SQUEEKTWO</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.ROBOTBEEPS"><span class="selflink">ROBOTBEEPS</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.ROBOTONE"><span class="selflink">ROBOTONE</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.ROBOTTWO"><span class="selflink">ROBOTTWO</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.ROBOTTHREE"><span class="selflink">ROBOTTHREE</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.ROBOTFOUR"><span class="selflink">ROBOTFOUR</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.ORGANSMASHONE"><span class="selflink">ORGANSMASHONE</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.ORGANSMASHTWO"><span class="selflink">ORGANSMASHTWO</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.POTIONSHATTERING"><span class="selflink">POTIONSHATTERING</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.SCARABBUZZING"><span class="selflink">SCARABBUZZING</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.EXPLOSION"><span class="selflink">EXPLOSION</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.MUMMYWRAPTHROW"><span class="selflink">MUMMYWRAPTHROW</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.SKULLTOSS"><span class="selflink">SKULLTOSS</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.WOLFPUNCH"><span class="selflink">WOLFPUNCH</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.WOLFDASH"><span class="selflink">WOLFDASH</span></td><td /></tr></table></div></div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">See Also</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="seeAlsoSection"><!----></a><div class="seeAlsoStyle"><a href="N-global.htm">global Namespace</a></div></div></div>
+   <span sdata="assembly">Assembly-CSharp</span> (in Assembly-CSharp.dll)<div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Syntax</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="syntaxSection"><!----></a><div class="CodeSnippetContainer"><div class="CodeSnippetContainerTabs"><div class="CodeSnippetContainerTabLeft"><!----></div><div class="CodeSnippetContainerTabFirst CSharpTab" id="CSharpTabId" style="background:white;border-bottom-color:white"><a href="javascript:setActiveTab('CodeSnippetContainerCode','CSharpCode','CSharpTabId');" title="C#">C#</a></div><div class="CodeSnippetContainerTabRight"><!----></div></div><div class="CodeSnippetContainerCodeCollection"><div class="CodeSnippetToolBar"><div class="CodeSnippetToolBarText" /></div><div class="CodeSnippetContainerCode CSharpCode"><pre xml:space="preserve" class="libCScode"><span class="keyword">public</span> <span class="keyword">enum</span> <span class="identifier">SoundType</span></pre></div></div></div></div><div id="enumerationSection"><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Members</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="membersSection"><!----></a><table class="members" id="memberList" frame="lhs" cellpadding="2"><tr><th class="iconColumn" /><th class="nameColumn">Member name</th><th class="descriptionColumn">Description</th></tr><tr><td /><td target="F:global.SoundController.SoundType.NONE"><span class="selflink">NONE</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.BONESRATTLE"><span class="selflink">BONESRATTLE</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.CLOWNHORN"><span class="selflink">CLOWNHORN</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.CLOWNMINE"><span class="selflink">CLOWNMINE</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.CREEPYANIMALAMBIENCE"><span class="selflink">CREEPYANIMALAMBIENCE</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.FOOTSTEPONE"><span class="selflink">FOOTSTEPONE</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.FOOTSTEPTWO"><span class="selflink">FOOTSTEPTWO</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.FOOTSTEPTHREE"><span class="selflink">FOOTSTEPTHREE</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.GROUNDRUMBLE"><span class="selflink">GROUNDRUMBLE</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.GRUNTONE"><span class="selflink">GRUNTONE</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.GRUNTTWO"><span class="selflink">GRUNTTWO</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.GRUNTTHREE"><span class="selflink">GRUNTTHREE</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.HOWL"><span class="selflink">HOWL</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.JETPACK"><span class="selflink">JETPACK</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.PUNCH"><span class="selflink">PUNCH</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.SLAP"><span class="selflink">SLAP</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.SPLASHONE"><span class="selflink">SPLASHONE</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.SPLASHTWO"><span class="selflink">SPLASHTWO</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.THUNDER"><span class="selflink">THUNDER</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.SQUEEKONE"><span class="selflink">SQUEEKONE</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.SQUEEKTWO"><span class="selflink">SQUEEKTWO</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.ROBOTBEEPS"><span class="selflink">ROBOTBEEPS</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.ROBOTONE"><span class="selflink">ROBOTONE</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.ROBOTTWO"><span class="selflink">ROBOTTWO</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.ROBOTTHREE"><span class="selflink">ROBOTTHREE</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.ROBOTFOUR"><span class="selflink">ROBOTFOUR</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.ORGANSMASHONE"><span class="selflink">ORGANSMASHONE</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.ORGANSMASHTWO"><span class="selflink">ORGANSMASHTWO</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.POTIONSHATTERING"><span class="selflink">POTIONSHATTERING</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.SCARABBUZZING"><span class="selflink">SCARABBUZZING</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.EXPLOSION"><span class="selflink">EXPLOSION</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.MUMMYWRAPTHROW"><span class="selflink">MUMMYWRAPTHROW</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.SKULLTOSS"><span class="selflink">SKULLTOSS</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.WOLFPUNCH"><span class="selflink">WOLFPUNCH</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.WOLFDASH"><span class="selflink">WOLFDASH</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.SCARABIMPACT"><span class="selflink">SCARABIMPACT</span></td><td /></tr><tr><td /><td target="F:global.SoundController.SoundType.CLOWNPIEJUMP"><span class="selflink">CLOWNPIEJUMP</span></td><td /></tr></table></div></div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">See Also</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="seeAlsoSection"><!----></a><div class="seeAlsoStyle"><a href="N-global.htm">global Namespace</a></div></div></div>
             </div>
           </div>
         </div>
